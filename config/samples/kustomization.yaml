@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- tacoorder_v1alpha1_tacoorder.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

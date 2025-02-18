@@ -1,0 +1,9 @@
+apiVersion: tacoorder.taco-order.example.com/v1alpha1
+kind: TacoOrder
+metadata:
+  labels:
+    app.kubernetes.io/name: taco-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: tacoorder-sample
+spec:
+  # TODO(user): Add fields here
